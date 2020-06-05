@@ -32,17 +32,19 @@ import todosData from "./data/todosData";
 // }
 
 class App extends React.Component {
-  checkThisMethod () {
-    return 6;
+    constructor() {
+      super();
+      this.state = {
+        testState : "This State worked mate!"
+      }
   }
   
   render() {
-    const result = this.checkThisMethod();
     const todoComponents = todosData.map(item => 
       <TodoItem key={item.id} todo={item} />)
     return (
       <div>
-        <p>Class method result: {result}</p>
+        <p>Class method result: {this.state.testState}</p>
           <div className="todo-list">
             {todoComponents}
           </div>
