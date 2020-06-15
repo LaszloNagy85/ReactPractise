@@ -40,7 +40,7 @@ class NewTodo extends React.Component {
                 <p>{this.state.firstName} {this.state.lastName}</p>
                 <p>{this.state.todoDescription}</p>
                 <p>Is done already: {this.state.isDoneAlready ? "Yes!" : "No!"}</p>
-                <p>Priority: {this.state.priority}</p> 
+                <p>Priority: {this.state.priority}</p>
             </div>
         )
     }
