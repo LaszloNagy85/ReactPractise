@@ -35,7 +35,7 @@ class NewTodo extends React.Component {
                 High priority!</label>
 
                 <label><input type="radio" name="priority" value="low" checked={this.state.priority === "low"} onChange={this.handleChange} />
-                Low priority!</label>
+                Low priority!</label> 
 
                 <p>{this.state.firstName} {this.state.lastName}</p>
                 <p>{this.state.todoDescription}</p>
