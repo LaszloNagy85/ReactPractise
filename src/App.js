@@ -38,7 +38,7 @@ class App extends React.Component {
       todos: [],
       isLoading: true,
       isLoggedIn: false,
-      userName: "",
+      userName: ""
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
