@@ -105,7 +105,7 @@ class App extends React.Component {
         name="userName"
         value={this.state.userName}
         placeholder="Your username here!"
-        onChange={this.handleUserNameInput}
+        onChange={this.handleUserNameInput} 
       />
     );
 
